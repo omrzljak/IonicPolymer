@@ -1,7 +1,10 @@
 {
-  "name": "HelloIonic",
-  "private": "true",
-  "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.0-beta.8"
-  }
+    "name": "HelloIonic",
+    "private": "true",
+    "devDependencies": {
+        "ionic": "driftyco/ionic-bower#1.0.0-beta.8"
+    },
+    "dependencies": {
+        "paper-toast": "Polymer/paper-toast#~0.3.3"
+    }
 }
