@@ -11,5 +11,8 @@ angular.module('starter.controllers', [])
   $scope.friend = Friends.get($stateParams.friendId);
 })
 
-.controller('AccountCtrl', function($scope) {
+.controller('AccountCtrl', function($scope, $rootScope) {
+        $rootScope.message1 = "Hello this is message one";
+        $rootScope.message2 = "Connection timed out. Showing limited messages.";
+        $rootScope.message3 = "It is getting late now " + new Date();
 });
