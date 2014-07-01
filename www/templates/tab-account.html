@@ -1,13 +1,25 @@
 <ion-view title="Account">
-  <ion-content class="has-header padding" scroll="true">
-    <h1>Account</h1>
-      <paper-button class="colored" raisedButton onclick="document.querySelector('#toast1').show()">Discard Draft <paper-shadow z="1"></paper-shadow></paper-button>
+    <ion-content class="has-header padding" scroll="true">
+        <h1>Account</h1>
 
-      <paper-button class="colored" raisedButton onclick="document.querySelector('#toast2').show()">Get Messages <paper-shadow z="3"></paper-shadow></paper-button>
+        <div class="row">
+            <div class="col">
+                <paper-button class="colored" raisedButton onclick="document.querySelector('#toast1').show()">Message1
+                    <paper-shadow z="1"></paper-shadow>
+                </paper-button>
+            </div>
+            <div class="col">
+                <paper-button class="colored" raisedButton onclick="document.querySelector('#toast2').show()">Message2
+                    <paper-shadow z="3"></paper-shadow>
+                </paper-button>
+            </div>
+            <div class="col">
+                <paper-button class="colored" raisedButton onclick="document.querySelector('#toast3').show()">Message3
+                    <paper-shadow z="5"></paper-shadow>
+                </paper-button>
+            </div>
+        </div>
 
-      <paper-button class="colored" raisedButton onclick="document.querySelector('#toast3').show()">Send Message <paper-shadow z="5"></paper-shadow></paper-button>
-
-
-  </ion-content>
+    </ion-content>
 
 </ion-view>
